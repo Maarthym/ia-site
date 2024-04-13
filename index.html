@@ -1,3 +1,289 @@
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+:root {
+    --bg: #eaeaea;
+    --primary: #1F1F4A;
+    --second: #F78F57;
+    --third: #3887D0;
+    --listBg: rgba(15,75,200,0.15);
+}
+
+
+body {
+    height: 100%;
+    background: var(--bg);
+    color: var(--primary);
+    font-family: Arial;
+    text-align: center;
+    transition-duration: 0.1s;
+    margin: 0 auto;
+}
+
+#content {
+    min-height: 100%;
+}
+
+#bandeHeader {
+    display: flex;
+    position: absolute;
+    justify-content:  center;
+    width: 100%;
+    background: var(--primary);
+    min-height: 25px;
+    top: -1px;
+    left: -1px;
+}
+
+header {
+    display: flex;
+    position: absolute;
+    justify-content:  center;
+    width: 100%;
+    top: 24px;
+    left: -1px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background: rgba(0,0,0,0.25);
+}
+
+.navigation {
+    display:flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+.navigation button {
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 40px;
+    width: 150px;
+    font-size: 15pt;
+    color: white;
+    border-radius: 8px;
+    background: var(--primary);
+    border: 0;
+    transition-duration: 0.45s;
+}
+
+.navigation button:hover {
+    width: 200px;
+    background-color: var(--second);
+    transition-duration: 0.45s;
+}
+
+#nuit {
+    position: fixed;
+    text-align: left;
+    right: 0;
+    bottom: 10;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    padding-left: 8px;
+    border-radius: 5px 0 0 5px;
+    color: white;
+    border: 0;
+    background: var(--primary);
+    transition-duration: 0.45s;
+}
+
+
+#nuit:hover {
+    position: fixed;
+    height: 30px;
+    width: 115px;
+    border: 0;
+    background: var(--second);
+    transition-duration: 0.45s;
+}
+
+.whiteColor {
+    color: white;
+}
+
+.hidden{
+    display: none !important;
+    transition-duration: 0.45s;
+}
+
+.subContent{
+    transition-duration: 0.45s;
+    margin-left: 5%;
+    margin-right: 5%;
+    min-height: 100%;
+}
+
+.subContent h2 {
+    transition-duration: 0.45s;
+    color: var(--third);
+    font-size: 25pt;
+}
+
+.subContent h3 {
+    transition-duration: 0.45s;
+    color: var(--third);
+    font-size: 18pt;
+}
+
+.subContent .text {
+    transition-duration: 0.45s;
+    font-size: 14pt;
+    margin-bottom: 2%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.subContent .list {
+    margin-left: 17% !important;
+}
+
+.textButton {
+    cursor: pointer;
+    text-decoration: none !important;
+    font-weight: bold;
+}
+
+.video {
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
+    height: 720px;
+}
+
+.smallerVideo {
+    width: 800px;
+    height: 600px;
+}
+
+img {
+    width: 50%;
+}
+
+.source {
+    position: relative;
+    margin-top: 10px;
+    font-size: 12pt !important;
+}
+
+.highlight {
+    background: var(--third) !important;
+    transition-duration: 0.45s;
+}
+
+.listContent {
+    display: flex;
+    flex-direction: column;
+    margin-right: 18%;
+    margin-left: 15%;
+}
+
+.listObject {
+    padding: 15px;
+    margin: 1%;
+    background: var(--listBg);
+    border-radius: 10px;
+}
+
+
+.listTitle {
+    transition-duration: 0.45s;
+    font-size: 14pt;
+    text-align: left;
+    background-color: var(--second);
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 100%;
+}
+
+.listText {
+    transition-duration: 0.45s;
+    font-size: 14pt;
+    text-align: left;
+}
+
+a {
+    color: var(--second) !important;
+}
+
+.listObject a {
+    color: var(--third) !important;
+}
+
+
+
+footer {
+    margin-top: 5%;
+    background: var(--primary);
+    color: white;
+    user-select: none;
+    padding-bottom: 1px;
+    padding-top: 25px;
+}
+
+@media screen and (max-width: 1600px) {
+  .navigation {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 1420px) {
+    .video {
+        width: 800px;
+        height: 600px;
+    }
+}
+
+
+@media screen and (max-width: 880px) {
+    .navigation {
+        margin-top: 25%;
+    }
+    .navigation button {
+        font-size: 12pt;
+    }
+    .video {
+        width: 640px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .video {
+        width: 320px;
+        height: 240px;
+    }
+    
+    header {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    img {
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .navigation {
+        margin-top: 50%;
+    }
+    
+    header {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+}
+</style>
+</head>
+<body>
 <!DOCTYPE html>
 <html>
     <head>
@@ -316,4 +602,9 @@
             }
         </script>
     </body>
+</html>
+<script>
+// Écrivez votre code javascript ici.
+</script>
+</body>
 </html>
