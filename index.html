@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>L'Intelligence Artificielle - Technologie</title> <!-- titre à compléter -->
+    </head>
+    <body>
+        <!-- code à écrire ici -->
+        <div id="bandeHeader"></div>
+        <header>
+            <h1 id="mainTitle"><strong>L'intelligence Artificielle</strong></h1>
+        </header>
+        
+        <button id="nuit" onclick="darkMode()"><strong>Mode Nuit ☾</strong></button>
+        <div id="content">
+            <div class="navigation">
+                <button id="buttonAccueil" class="highlight" onclick="accueil()"><strong>Accueil</strong></button>
+                <button id="buttonHistoire" onclick="histoire()"><strong>Histoire</strong></button>
+                <button id="buttonOu" onclick="ou()"><strong>Où est-elle ?</strong></button>
+            </div>
+            
+            <div class="subContent" id="accueil">
+                <h2 class="title">Qu'est-ce que l'Intelligence Artificielle ?</h2>
+                <p class="text">L'intelligence artificielle, ou IA, est un ensemble d'algorithmes, de processus qui imitent et essayent de reproduire au maximum possible 
+                l'intelligence humaine. De plus, il y a a deux différents <strong>types d'IA</strong> à retenir :</p>
+                
+                <li class="text list">L'IA <strong>faible</strong> qui permet à un robot (ou tout autre programme / système) de réaliser des tâches simples via des algorithmes écris par un humain. Étant assistée par l'Homme, elle accomplie alors une tâche précise.</li>
+                <li class="text list">L'IA <strong>forte</strong>, elle, consiste à reproduire de système cognitif humain : au fil du temps, elle apprend d'elle-même (on parle de <strong>deep learning</strong>)
+                et parvient à produire des tâches qui n'étaient pas programmées à l'origine.</li>
+                
+                <img src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_960_720.jpg"> 
+                <p class="source"><em><strong>SOURCE : </strong> <u><a href="https://pixabay.com/fr/illustrations/intelligence-artificielle-cerveau-3382507/">Intelligence Artificielle Cerveau</a></u>, geralt, Pixabay (Pixabay Liscence)</em></p>
+                
+                <h2 class="title">Pourquoi choisir ce domaine ?</h2>
+                <p class="text">L'IA est un domaine passionnant en plusieurs points, et son histoire, disponible <a class="textButton" onclick="histoire()">ici</a>, remonte tout de même à l'invention même de l'ordinateur
+                et il est important de rappeler cela : l'IA n'est pas ce que l'on pense d'elle, elle n'est pas supérieure à l'homme et n'est pas non plus capable de gouverner le monde, elle est cependant omniprésente.</p>
+                <p class="text">Elle aide l'humanité à avancer et cette <strong>technologie</strong> nous permet à tous d'avoir un quotidien moins compliqué, ce qui nous permet d'avancer
+                et de se concentrer sur d'autres problèmes. Ainsi, nous avançons vers des technologies qui nous aident à aller de l'avant encore plus vite, voilà ce qui me pousse à parler ici de l'Intelligence Artificielle.</p>
+            </div>
+            
+            <div class="subContent hidden" id="histoire">
+                <h2 class="title">Histoire de l'IA</h2>
+                <p class="text">
+                    L'histoire de l'Intelligene Artificielle remonte à plusieurs décennies et plusieurs repères sont importants à noter dans cette dernière.
+                Le modèle mathématique de modélisation de neurones voie le jour en <strong>1943</strong>, ce qui es tout de même avant le premier ordinateur en <strong>1946</strong>
+                ce qui pourrait paraître étonnant. Elle apparait pour la première fois dans un article nommé "<u>A Logical Calculus of Ideas Immanent in Nervous Activity</u>" écrit par <strong>Warren McCullough</strong> (retouvez <a href="https://fr.wikipedia.org/wiki/Warren_McCulloch">ici</a> sa page wikipédia)
+                et <strong>Walter Pitts</strong> (retrouvez <a href="https://fr.wikipedia.org/wiki/Walter_Pitts">ici</a> sa page wikipédia).
+                <br>Certains moments-clés sont donc à retenir sur l'IA :
+                </p>
+                
+                <div class="listContent">
+                    <div class="listObject">
+                        <span class="listTitle">1950</span>
+                        <p class="listText">
+                            L'IA commencera ainsi son histoire en 1950 avec la publication d'un article par <strong>Alan Turing</strong> ayant pour titre "<u>Computing Machinery and Intelligence</u>"
+                            où naît le test que l'on connait sous le nom de "Turing Test" aujourd'hui qui permet de distinguer une machine qui se raproche ou non du cerveau humain.
+                        </p>
+                        <p class="listText">
+                            La même année, un <strong>ordinateur à neurones</strong> est créé, c'est le <u>Snarc</u>, créé par Marvin Minsky et Dean Edmonds, tous les deux étudiants d'Harvard.
+                        </p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">1954</span>
+                        <p class="listText">
+                             Les premiers programmes de traduction linguistique voient le jour en <strong>1954</strong> notamment sous l'influence de la Guerre Froide.
+                        </p>
+                    </div>
+
+                    <div class="listObject">
+                        <span class="listTitle">1956</span>
+                        <p class="listText">
+                            En <strong>1956</strong>, John McCarthy, Marvin Minsky, Nathaniel Rochester et Claude Shannon font une conférence sur cette technologie naissante, c'est à ce moment que la notion d'<strong>Intelligence Artificielle</strong> nait.
+                            De ce fait, les premiers logiciels impliquant l'IA vont apparaître la même année tels que le <u>Logic Theorist</u> inventé par Allen Newell, Herbert Simon et Cliff Shaw.
+                            Cependant, avec le peu de mémoire des ordinateurs, l'engouement autour de l'IA s'affaiblit durant les années 1960.
+                        </p>
+                    </div>
+
+                    <div class="listObject">
+                        <span class="listTitle">1957</span>
+                        <p class="listText">
+                             En <strong>1957</strong>, Noam Chomsky est à l'origine d'un modèle mathématique qui permet aux machines de mieux
+                             comprendre les langues.
+                        </p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">1959</span>
+                        <p class="listText">
+                            En <strong>1959</strong>, le terme <strong>Machine Learning</strong> est inventé par Arthur Samuel 
+                        </p>
+                    </div>   
+                    <div class="listObject">
+                        <span class="listTitle">1960</span>
+                        <p class="listText">Les premières critiques vont paraître ainsi dans les années <strong>1960</strong> avec la chute de l'intelligence artificielle, notamment le philosophe Hubert Dreyfus qui 
+                        faisait remarquer le manque de sentiments.
+                        </p>
+                    </div>     
+                    <div class="listObject">
+                        <span class="listTitle">1970</span>  
+                        <p class="listText">En <strong>1970</strong>, les premiers microprocesseurs permettent une renaissance pour les intelligences artificielles, c'est le début de <strong>L'âge d'or des systèmes experts</strong>.
+                        C'est donc dans les années 1980 que les systèmes experts, plus puissants, capables de raisonner plus intelligemment vont se développer.
+                        </p>
+                    </div>   
+                    <div class="listObject">
+                        <span class="listTitle">1980</span>    
+                        <p class="listText">
+                            Cependant, une seconde chute de l'IA voit le jour à la fin des années <strong>1980</strong>
+                            puisque ces machines demandaient beaucoup trop d'effort et certaines machines devenaient petit à petit incompréhensible, c'est l'effet "<strong>boîte noire</strong>".
+                        </p>
+                    </div>   
+                    <div class="listObject">
+                        <span class="listTitle">1990</span>    
+                        <p class="listText">
+                            Elle revient cependant dans les années <strong>1990</strong> notamment avec l'arrivée du <strong>Big Data</strong> qui se défini par le volume conséquent de données
+                            numériques produites.
+                        </p>
+                    </div>   
+                    <div class="listObject">
+                        <span class="listTitle">1997</span>    
+                        <p class="listText">
+                            L'un des évènements les plus majeurs se situe en <strong>1997</strong> lorsque l'IA <strong>Deep Blue</strong> batta le meilleur joueur d'échecs du monde
+                            <strong>Gary Kasparo</strong>, ce fut la première victoire de la machine sur l'Homme. Ci-dessous retrouvez une archive INA parlant de cet évènement remarquable.
+                        </p>
+                    </div>   
+                    <div class="listObject">
+                        <span class="listTitle">2010</span>    
+                        <p class="listText">
+                            Enfin, despuis les années <strong>2010</strong>, un nouvel essor fait surface avec l'avancée constante de l'informatique ainsi que de la puissance de calcul. 
+                            L'accès aux données est aussi très simplifié nottament lorsqu'une recherche <u>Google</u> permet de trouver des millions de résultats.
+                            <br>
+                            On peut souligner une avancée en <strong>2016</strong> de <u>AlphaGO</u>, une IA de Google qui à l'origine est développée par Deep Mind (entreprise qui fut rachetée par Google en 2014)
+                            , qui gagne contre le meilleur joueur d'Europe de <strong>go</strong> Fan Hui, puis le champion du monde Lee Sedol.
+                            Cet algorithme est même vaincu par la version suivante du logiciel AlphaGO Zero.
+                        </p>
+                        <iframe class="video smallerVideo" src="https://www.youtube.com/embed/ZIcZymAzifM" title="Deep blue contre Gary Kasparov" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p class="source"><em><strong>SOURCE : </strong> <u><a href="https://www.youtube.com/watch?v=ZIcZymAzifM&ab_channel=InaSport">Deep blue contre Gary Kasparov</a></u>, Ina Sport, 2012 (archive 12 février 1996), YouTube</em></p>
+
+                    </div>
+                </div>
+                
+
+                <p class="text">
+                    On parle donc d'intelligence artificielle depuis plus de 60 ans, un nombre conséquent d'années, il s'agit d'une technologie qui évolue perpetuellement et très rapidement, et qui n'attend qu'à être exploitée.
+                    <br>Vous pouvez retrouver ci-dessous une vidéo de <strong>CEA Recherche</strong> détaillant l'histoire de l'Intelligence Artificielle :</p>
+                
+                <iframe class="video" src="https://www.youtube.com/embed/qmwJx-r5vmw" title="[Histoire des sciences] L’histoire de l’intelligence artificielle (IA)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>        
+                <p class="source"><em><strong>SOURCE : </strong> <u><a href="https://www.youtube.com/watch?v=qmwJx-r5vmw&ab_channel=CEARecherche">[Histoire des sciences] L’histoire de l’intelligence artificielle (IA)</a></u>, CEA Recherche, 2018, YouTube</em></p>
+            </div>
+            <div class="subContent hidden" id="ou">
+                <h2 class="title">Où se trouve-t-elle ?</h2>
+                <p class="text">L'Intelligence artificielle est, comme dit dans la page <a class="textButton" onclick="histoire()">Histoire</a>, une 
+                prouesse technologique qui s'est notamment développée pour répondre à des problèmes ou bien démontrer des systèmes informatiques. Mais elle est aussi présente dans d'autres domaines.
+                </p>
+                <div class="listContent">
+                    <div class="listObject">
+                        <span class="listTitle">Les Androïdes</span>
+                        <p class="listText">
+                            Ce terme parle de lui-même, les androïdes sont des robots qui "ressemblent à l'être humain"
+                            et ici, il s'agit notamment de parler des robots qui sont capables de reconnaître et discuter avec des êtes humains.
+                            On peut prendre l'exemple de <strong>Sophia</strong>, un robot de Hanson Robotics qui est activée en 2015 et qui va même jusqu'à obtenier la <u>nationalité saoudienne</u>
+                            en 2017 : elle est le premier androïde à recevoir une citoyenneté au monde.
+                        </p>
+                        <img src="https://live.staticflickr.com/65535/27254369347_5b50b75770_h.jpg">
+                        <p class="source"><em><strong>SOURCE : </strong> <u><a href="https://www.flickr.com/photos/itupictures/27254369347/">Gynoïde Sophia à la conférence AI for GOOD Global Summit</a></u>, ITU Pictures, 2018, CC BY-NC-ND</em></p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">La reconnaissance faciale et digitale</span>
+                        <p class="listText">
+                            On retrouve quotidiennement l'Intelligence Artificielle par exemple dans nos téléphones avec la reconnaissance faciale ou bien la reconnaissance de notre
+                            empreinte digitale. Cela est géré par une intelligence artificielle et on peut souligner le fait que ces systèmes n'ont fait que s'améliorer ces dernières années
+                            puisqu'elles fonctionnent avec le <strong>Machine Learning</strong>.
+                        </p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">Médecine</span>
+                        <p class="listText">
+                            L'Intelligence artificielle est aujourd'hui capable d'aider les médecins à produire un diagnostic des patients, ce qui
+                            permet d'améliorer par exemple un diagnostic de cancer ou bien donner plus facilement des conseils de traitement.
+                        </p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">Dans L'industrie</span>
+                        <p class="listText">
+                            Une augmentation de la production des industries peut être grâce à l'intelligence artificielle qui s'y implante.
+                            En effet, on peut prendre l'exemple des "maintenances préventives" qui permettent de par des capteurs, d'analyser et repérer des pannes avant qu'elles arrivent. 
+                        </p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">Les Chatbots</span>
+                        <p class="listText">
+                            Les <strong>chatbots</strong> sont des intelligences artificielles capables d'avoir une conversation avec un humain.
+                            On peut prendre l'exemple des <u>assistants vocaux</u> des nos téléphones tels que Siri, Google Home ou bien Alexa.
+                        </p> 
+                        <p class="listText">
+                            Cependant, une émergence récente a fait beaucoup de bruit : <strong>Chat GPT</strong>. Ce bot permet de
+                            vise à comprendre et répondre à des messages, on peut lui demander ce qu'il est par nous-même et il répondra : "<em>Je suis ChatGPT, un modèle de langage développé par OpenAI. Je suis un programme informatique qui utilise l'apprentissage automatique pour comprendre et générer du texte en réponse à des entrées de texte.
+                            Mon but est de fournir une assistance et des informations aux utilisateurs grâce à mes connaissances et à mes capacités de traitement du langage naturel.</em>"
+                        </p> 
+                        <p class="listText">
+                            Ce bot fut très controversé de par l'assistance très importante qu'il a pu fournir notamment à des étudiants, étant capable même de produire une dissertation ou de répondre à un devoir.
+                            Il ne répond pas tout le temps la même réponse ce qui prouve qu'il ressemble à l'être humain, et il se corrige lorsqu'il fait une erreur, notamment si on la lui fait remarquer.
+                        </p> 
+                        <p class="listText">
+                            De plus, ce dernier est aussi à l'origine pour certains utilisateurs d'une certaine fortune, en effet, ce bot serait capable
+                            de faire le travail d'un humain, notamment en programmation.
+                        </p>
+                        <p class="listText">
+                            Vous pouvez retrouver ci-dessous une émission de <strong>Underscore_</strong> parlant de ChatGPT qui aida à trouver
+                            des failles dans des systèmes infomatiques :
+                        </p>
+                        <iframe class="video smallerVideo" src="https://www.youtube.com/embed/610auZn645w" title="Comment gagner 42 000$ avec ChatGPT ?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <p class="source"><em><strong>SOURCE : </strong> <u><a href="https://youtu.be/610auZn645w">Comment gagner 42 000$ avec ChatGPT ?</a></u>, Underscore_, 2023, Youtube</em></p>
+                    </div>
+                    
+                    <div class="listObject">
+                        <span class="listTitle">Dans les algorithmes ciblés</span>
+                        <p class="listText">
+                            On retrouve des IA partout, et cela veut dire aussi dans les réseaux sociaux.
+                            En effet, dans les réseaux sociaux tels que <strong>Facebook</strong> ou <strong>Youtube</strong>, des publicités ciblées vont être envoyées à l'utilisateur en fonction des données qu'il a pu fournir
+                            à l'application. Cela permet à des entreprises d'avoir des clients intéressés et d'uniquement montrer leur publicité à ces derniers.
+                            De plus, d'autres applications comme, encore une fois <strong>Youtube</strong>, <strong>Spotify</strong>, <strong>Netflix</strong> ou bien <strong>Amazon</strong> vont aussi montrer sur leur page d'accueil ou de lecture automatique des vidéos / musiques / films et séries / produits en fonction
+                            de ce que l'utilisateur a déjà regardé / écouté / acheté.
+                        </p>
+                    </div>
+                </div>
+                
+                <p class="text">
+                    Enfin, il faut bien rappeler qu'ici sont des exemples, depuis l'ascension extrême récente de l'IA, ce secteur s'implante presque partout, la recherche de travail dans ce domaine est très grande 
+                    et les investissements aussi, comme par exemple <strong>Elon Musk</strong> qui a co-fondé l'entreprise OpenAI en 2015 qui a créé l'intelligence artificielle GPT bien qu'il ait quitté cette entreprise depuis.
+                </p>
+                
+
+            </div>
+        </div>    
+        <footer>
+            <p>Martin LASSAUT, 1GNSI, Lycée Emmanuel Mounier, Angers</p>
+            <p>Sources : 
+                <a href="https://www.coe.int/fr/web/artificial-intelligence/history-of-ai">Conseil de l'Europe</a>, 
+                <a href="https://datascientest.com/intelligence-artificielle-definition">DataScientest</a>, 
+                <a href="https://www.youtube.com/watch?v=qmwJx-r5vmw&t=187s&ab_channel=CEARecherche">CEA Recherche</a>, 
+                <a href="https://experiences.microsoft.fr/articles/intelligence-artificielle/comprendre-utiliser-intelligence-artificielle/">Microsoft</a> 
+            </p>
+        </footer>
+
+        <script>
+            var nuit = false;
+            function accueil() {
+                document.getElementById("accueil").classList.remove("hidden");
+                document.getElementById("histoire").classList.add("hidden");
+                document.getElementById("ou").classList.add("hidden");
+                document.getElementById("buttonAccueil").classList.add("highlight"); 
+                document.getElementById("buttonHistoire").classList.remove("highlight"); 
+                document.getElementById("buttonOu").classList.remove("highlight"); 
+            }
+            
+            function histoire() {
+                document.getElementById("accueil").classList.add("hidden");
+                document.getElementById("histoire").classList.remove("hidden");
+                document.getElementById("ou").classList.add("hidden");
+                document.getElementById("buttonAccueil").classList.remove("highlight"); 
+                document.getElementById("buttonHistoire").classList.add("highlight"); 
+                document.getElementById("buttonOu").classList.remove("highlight"); 
+            }
+            
+            function ou() {
+                document.getElementById("accueil").classList.add("hidden");
+                document.getElementById("histoire").classList.add("hidden");
+                document.getElementById("ou").classList.remove("hidden"); 
+                document.getElementById("buttonAccueil").classList.remove("highlight"); 
+                document.getElementById("buttonHistoire").classList.remove("highlight"); 
+                document.getElementById("buttonOu").classList.add("highlight"); 
+            }
+            
+            function darkMode(){
+                var root = document.querySelector(":root");
+                if (nuit == false) {
+                    document.getElementById("nuit").innerHTML = "<strong>Mode Jour ☀</strong>";
+                    root.style.setProperty("--bg", "#101621");
+                    root.style.setProperty("--primary", "#3E46C0");
+                    root.style.setProperty("--third", "#3E92D6");
+                    root.style.setProperty("--listBg", "rgba(62,175,255,0.08)");
+                    texts = document.getElementsByClassName("text");
+                    for (var i = 0; i < texts.length; i++) {
+                        texts[i].classList.add("whiteColor");
+                    }     
+                    texts = document.getElementsByClassName("listText");
+                    for (var i = 0; i < texts.length; i++) {
+                        texts[i].classList.add("whiteColor");
+                    }     
+                    document.getElementById("mainTitle").classList.add("whiteColor");    
+                    nuit = true;
+                } else {
+                    document.getElementById("nuit").innerHTML = "<strong>Mode Nuit ☾</strong>";
+                    root.style.setProperty("--bg", "#eaeaea");
+                    root.style.setProperty("--primary", "#1F1F4A");
+                    root.style.setProperty("--third", "#3887D0");
+                    root.style.setProperty("--listBg", "rgba(15,75,200,0.15)");
+                    texts = document.getElementsByClassName("text");
+                    for (var i = 0; i < texts.length; i++) {
+                        texts[i].classList.remove("whiteColor");
+                    }
+                    texts = document.getElementsByClassName("listText");
+                    for (var i = 0; i < texts.length; i++) {
+                        texts[i].classList.remove("whiteColor");
+                    } 
+                    document.getElementById("mainTitle").classList.remove("whiteColor");  
+                    nuit = false;
+                }
+            }
+        </script>
+    </body>
+</html>
